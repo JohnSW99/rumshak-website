@@ -26,15 +26,19 @@ header {
     font-family: 'Poppins', sans-serif;
     background-image: url('rumshak.jpg');
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: auto;
     background-position: center;
+    background-attachment: fixed;
     width: auto;
 }
 .about{
     display: flexbox;
+    background: rgba(174, 243, 243, 0.637);
     align-items: center;
+    list-style-position: inside;
     width: 50%;
     margin: auto;
+    font-size: 18px;
 }
 .container {
     display: flex;
@@ -48,4 +52,12 @@ h1 {
         -moz-background-clip: text;
         background-clip: text;
         color: transparent;
+}
+h2 {
+    font-size: 40px;
+    color: rgb(204, 28, 116);
+}
+h5 {
+    font-size: 50px;
+    text-align: center;
 }
