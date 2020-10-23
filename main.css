@@ -36,8 +36,9 @@ header {
     background: rgba(174, 243, 243, 0.637);
     align-items: center;
     list-style-position: inside;
-    width: 50%;
-    margin: auto;
+    width: auto;
+    margin-left: 25%;
+    margin-right: 25%;
     font-size: 18px;
 }
 .container {
