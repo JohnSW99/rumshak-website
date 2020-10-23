@@ -1,0 +1,51 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    background: rgb(243, 88, 32, 1);
+    width: 100%;
+    height: 5vh;
+    margin: auto;
+    align-items: center;
+}
+.nav{
+    font-weight: 400;
+    margin: 8px;
+}
+.logo-container{
+    flex: 1;
+}
+.logosize{
+    width: 20%;
+}
+.body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('rumshak.jpg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    width: auto;
+}
+.about{
+    display: flexbox;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+h1 {
+    font-family: 'Rum Raisin', sans-serif;
+    font-size: 100px;
+    background-image: linear-gradient(to bottom, yellow, orange, red);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
